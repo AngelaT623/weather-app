@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const key = process.env.REACT_APP_WEATHERAPP_API_KEY;
+  
   return (
     <div className="App">
       <header className="App-header">

@@ -13,7 +13,8 @@ class App extends Component {
 		};
 	}
 	componentDidMount() {
-		const url = `https://api.openweathermap.org/data/2.5/weather?q=miami&units=imperial&appid=${key}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=miami
+    &units=imperial&appid=${key}`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((res) => {
@@ -22,7 +23,6 @@ class App extends Component {
 					forecast: {
 						temperature: res.main.temp,
 						city: res.name,
-						timezone: res.timezone,
 						name: res.name,
 						feels_like: res.main.feels_like,
 						humidity: res.main.humidity,
@@ -40,7 +40,7 @@ class App extends Component {
 			<div className='App'>
 				<Header />
 				<Forecast forecast={this.state.forecast} />
-				{/* <Search name={this.state.city} key={this.state.city} /> */}
+				<Search name={this.state.city} key={this.state.city} />
 			</div>
 		);
 	}

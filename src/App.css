@@ -1,7 +1,64 @@
+* {
+  background-color: rgb(74, 168, 197);
+}
 .App {
   font-family: montseratt, sans-serif;
-  box-sizing: border-box;
+
 }
-.box {
-  width: 75%;
+.city-bar {
+  font-size: 20px;
+  display: inline-block;
+  width: 50%;
+  display: block;
+  border-radius: 5px;
+  margin: auto ;
+}
+.button {
+  font-size: 20px;
+  position: relative;
+  width: 20%;
+  display: block;
+  border-radius: 5px;
+  margin: 5px auto ;
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+.forecast {
+  font-family: monteratt, sans-serif;
+  text-align: center;
+}
+.date {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(30, 30, 73, 0.274);
+}
+.city {
+  color: black;
+  font-weight: 700;
+}
+.header {
+  color: whitesmoke;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(30, 30, 73, 0.274);
+}
+.temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 10px;
+  padding: 15px 25px;
+  color: whitesmoke;
+  font-size: 80px;
+  font-weight: 500;
+  text-shadow: 3px 6px rgba(30, 30, 73, 0.274);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.274);
 }

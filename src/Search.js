@@ -20,7 +20,7 @@ class Search extends Component {
 					type='text'
 					className='city-bar'
 					placeholder='Search by City'></input>
-				<button onChange={this.handleSubmit}>Search</button>
+				<button className="button" onChange={this.handleSubmit}>Search</button>
 			</form>
 		);
 	}

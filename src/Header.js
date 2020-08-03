@@ -7,7 +7,6 @@ class Header extends Component {
 		return (
 			<div className="header">
 				<h1>Weather Forecast</h1>
-				{/* <h3>Search any cities weather.</h3> */}
 				
 			</div>
 		);

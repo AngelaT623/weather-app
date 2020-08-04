@@ -47,8 +47,8 @@ class Forecast extends Component {
 					{Math.round(this.props.forecast.temperature)}°F
 				</h1>
 				<p>It feels like: {Math.round(this.props.forecast.feels_like)}°F</p>
-				<p>Humidity: {this.props.forecast.humidity}</p>
-				<p>Wind speed: {Math.round(this.props.forecast.wind)}</p>
+				<p>Humidity: {this.props.forecast.humidity} %</p>
+				<p>Wind speed: {Math.round(this.props.forecast.wind)} mph</p>
 
 				<img
 					className='img'

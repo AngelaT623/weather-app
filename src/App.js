@@ -10,7 +10,7 @@ class App extends Component {
 		super(props);
 		this.state = {
 	  forecast: null,
-	  searchString: "miami",
+	  searchString: "",
 		};
 	}
 	componentDidMount() {
